@@ -8,7 +8,7 @@
     "start": "node index.js"
   },
   "keywords": [],
-  "author": "Gruppe Adler",
+  "author": "Gruppe Adler, modified by Special Operations Brigade",
   "dependencies": {
     "glob": "^7.1.6",
     "sharp": "^0.25.4"

@@ -3,7 +3,7 @@ const CURSOR_MOVING = 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAY
 
 import { EventData as MapboxEventData, Map as MapboxMap, MapboxEvent, IControl as MapboxIControl, MapMouseEvent, LngLat as MapboxLngLat } from 'mapbox-gl';
 
-import { GradMap } from '@gruppe-adler/maps-frontend-utils/lib/mapbox';
+import { GradMap } from '@sob-a3/maps-frontend-utils/lib/mapbox';
 
 export default class GradCursorControl implements MapboxIControl {
     private _map: MapboxMap|null = null;

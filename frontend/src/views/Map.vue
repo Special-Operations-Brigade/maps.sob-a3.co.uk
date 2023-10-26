@@ -6,7 +6,7 @@
         <h1>Map "{{mapName}}" not found!</h1>
     </div>
     <div v-else-if="error !== null" class="error">
-        <h1>An Error occured!</h1>    
+        <h1>An Error occured!</h1>
     </div>
     <div v-else class="actions">
         <button
@@ -26,7 +26,7 @@
 <script lang="ts">
 import { Component, Vue, Watch, Prop } from 'vue-property-decorator';
 
-import { GradMap } from '@gruppe-adler/maps-frontend-utils/lib/mapbox';
+import { GradMap } from '@sob-a3/maps-frontend-utils/lib/mapbox';
 
 import GradCursorControl from '@/CursorControl';
 
